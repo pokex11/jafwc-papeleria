@@ -1,0 +1,41 @@
+*{
+    font-size: 14px;
+    color: blue;
+}
+
+
+h1{
+    color:#fff !important;
+    background-color: #000000;
+    font-size: 3em;
+    text-align: center;
+    border: #fff 3px dashed;
+    padding: 20px 16px;
+    margin: 50px;
+}
+
+#formulario{
+    margin: 50px;
+    padding: 20px;
+}
+
+#parrafo{
+    font-size: 15px;
+    color: red;
+    border: #000000 2px solid;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+#parrafo2{
+
+}
+
+#parrafo3{
+
+}
+
+.clase{
+    
+}
