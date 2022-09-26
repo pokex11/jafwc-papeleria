@@ -1,2 +1,2 @@
-# jafwc-papeleria
-Repositorio del proyecto papeleria
+# jafwc-papelería
+Repositorio del proyecto papelería
