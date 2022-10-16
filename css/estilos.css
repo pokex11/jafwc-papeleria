@@ -311,3 +311,15 @@ span.psw {
     display: table;
     clear: both;
   }
+
+  /*Body {
+    background-color : #dbfcfb;}*/
+
+    body {
+      
+      background-image: url("https://image.shutterstock.com/image-illustration/stars-dust-gas-nebula-far-600w-452907157.jpg");
+      background-repeat: repeat;
+     
+    }
+  
+   
