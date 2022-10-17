@@ -1,6 +1,6 @@
 *{
     font-size: 14px;
-    color: blue;
+    color: white;
     box-sizing: border-box;
 }
 
@@ -66,7 +66,7 @@ h1{
 
 
 #main-menu {
-	background: gray;
+	background: rgb(10, 10, 10);
 	color: white;
     margin-block-start: 80px;
 	height: 100%;/* hacemos que el menu ocupe el alto completo de la página */
@@ -97,7 +97,7 @@ h1{
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 #main-header {
-	background: #333;
+	background: rgb(85, 18, 192);
 	color: white;
 	height: 80px;
 }	
@@ -182,7 +182,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
+  background-color: #0a84f7;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -302,7 +302,7 @@ span.psw {
     margin: 10px;
     margin-block-start: 100px;
     height: 300px; /* Should be removed. Only for demonstration */
-    background-color:#aaa;
+    background-color:rgb(32, 32, 32);
   }
   
   /* Clear floats after the columns */
