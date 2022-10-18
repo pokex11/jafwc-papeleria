@@ -1,13 +1,15 @@
 *{
     font-size: 14px;
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #0a84f7;
     box-sizing: border-box;
 }
 
 
 h1{
     color:#fff !important;
-    background-color: #000000;
+    background-color: transparent;
     font-size: 3em;
     text-align: center;
     border: #fff 3px dashed;
@@ -66,18 +68,19 @@ h1{
 
 
 #main-menu {
-	background: rgb(10, 10, 10);
+	background: #0a84f7;
 	color: white;
     margin-block-start: 80px;
-	height: 100%;/* hacemos que el menu ocupe el alto completo de la página */
+	height: 100%;/* hacemos que el menú ocupe el alto completo de la página */
 	width: 10%; 
-	left: 0; /* Posicionamos el menu al lado izquierdo */
-	top: 0; /* Posicionamos el menu pegado arriba */
-	position: fixed; /* Hacemos que el menu tenga una posición fija */
+	left: 0; /* Posicionamos el menú al lado izquierdo */
+	top: 0; /* Posicionamos el menú pegado arriba */
+	position: fixed; /* Hacemos que el menú tenga una posición fija */
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     visibility: visible;
     list-style-type: none;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #main-menu a {
@@ -128,9 +131,10 @@ h1{
 
 #logo-header .site-name {
     display: block;
-    font-weight: 700;
-    font-size: 1.2em;
-    color: #fff;
+    font-weight: 1000;
+    font-size: 3.0em;
+    font-family: fantasy;
+    color: black;
     text-align: center;
 }
 
@@ -138,6 +142,7 @@ h1{
     display: block;
     font-weight: 300;
     font-size: 0.8em;
+    font-family: monospace;
     color: #999;
 }
 
@@ -237,7 +242,7 @@ span.psw {
   width: 50%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
@@ -317,9 +322,7 @@ span.psw {
 
     body {
       
-      background-image: url("https://image.shutterstock.com/image-illustration/stars-dust-gas-nebula-far-600w-452907157.jpg");
+      background-image: url(https://cutt.ly/BBZgbV5);
       background-repeat: repeat;
      
-    }
-  
-   
+    } 
