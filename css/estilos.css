@@ -33,6 +33,12 @@ H8{color:#8e24aa !important;
 P{color:#181319 !important;
   font-weight:900;
   text-align: justify;
+  font-size: 1.5em;
+}
+
+#px{color:#181319 !important;
+  font-weight:900;
+  text-align: justify;
   margin: 130px;
   font-size: 1.5em;
 }
