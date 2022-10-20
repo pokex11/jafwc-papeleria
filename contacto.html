@@ -3,8 +3,8 @@
 
 <head>
     <title>Proyecto Papelería JAFWC</title>
-    <link rel="stylesheet" href="css/estilos.css"> 
-    <link rel="stylesheet" type="text/css" href="css/contacto.css">   
+    <link href="css/estilos.css" rel="stylesheet"> 
+    <link type="text/css" href="css/contacto.css" rel="stylesheet">   
 </head>
 
 <body>
@@ -46,10 +46,10 @@
             <h1>NUESTRAS TIENDAS</h1>
 
             <h3>OFICINA PRINCIPAL</h3>
-            <h4>Dirección: Cra. 27 #9-56, Bucaramanga, Santander</h4>
+            <h4>Dirección: Cra. 27 # 9-56, Bucaramanga, Santander.</h4>
             <H4>Áreas de servicio: Bucaramanga</H4>  
-            <H4>Horario: lunes a sabado 0800R-18:00R</H4> 
-            <H4>Teléfono: 301 7436554</H4> 
+            <H4>Horario: Lunes a sábado 08:00R-18:00R</H4> 
+            <H4>Teléfono: 3017436554</H4> 
 
 
             <html lang="es">
@@ -60,91 +60,91 @@
 
     <div class="formulario">      
       <h2>Formulario de contacto</h2>
-        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+        <h3>Escríbenos y en breve nos pondremos en contacto contigo.</h3>
 
 
           <form action="submeter-formulario.php" method="post">       
 
             
                 <p>
-                  <label for="nombre" class="colocar_nombre">Nombre
+                  <label class="colocar_nombre" for="nombre">Nombre
                     <span class="obligatorio">*</span>
                   </label>
-                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    <input id="nombre" name="introducir_nombre" type="text" required="obligatorio" placeholder="Escribe tu nombre">
                 </p>
               
                 <p>
-                  <label for="email" class="colocar_email">Email
+                  <label class="colocar_email" for="email">Email
                     <span class="obligatorio">*</span>
                   </label>
-                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    <input id="email" name="introducir_email" type="email" required="obligatorio" placeholder="Escribe tu Email">
                 </p>
             
                 <p>
-                  <label for="telefone" class="colocar_telefono">Teléfono
+                  <label class="colocar_telefono" for="telefone">Teléfono
                   </label>
-                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    <input id="telefono" name="introducir_telefono" type="tel" placeholder="Escribe tu teléfono">
                 </p>    
               
                 <p>
-                  <label for="website" class="colocar_website">Sitio web
+                  <label class="colocar_website" for="website">Sitio web
                   </label>
-                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                    <input id="website" name="introducir_website" type="url" placeholder="Escribe la URL de tu web">
                 </p>    
               
                 <p>
-                  <label for="asunto" class="colocar_asunto">Asunto
+                  <label class="colocar_asunto" for="asunto">Asunto
                     <span class="obligatorio">*</span>
                   </label>
-                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                    <input id="assunto" name="introducir_asunto" type="text" required="obligatorio" placeholder="Escribe un asunto">
                 </p>    
               
                 <p>
-                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                  <label class="colocar_mensaje" for="mensaje">Mensaje
                     <span class="obligatorio">*</span>
                   </label>                     
-                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                    <textarea class="texto_mensaje" id="mensaje" name="introducir_mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
                                 </p>                    
               
-                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                <button id="enviar" name="enviar_formulario" type="submit"><p>Enviar</p></button>
 
                 <p class="aviso">
-                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                  <span class="obligatorio"> * </span>Los campos son obligatorios.
                 </p>          
             
           </form>
     </div>  
   </div>
 
-        </div>
+        </html></div>
     </div>
 
 
 
 
-    <div id="id01" class="modal"> <!-- modal para el acceso-->
+    <div class="modal" id="id01"> <!-- modal para el acceso-->
   
         <form class="modal-content animate" action="/action_page.php" method="post">
           <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-            <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+            <span class="close" title="Close Modal" onclick="document.getElementById('id01').style.display='none'">&times;</span>
+            <img class="avatar" src="img/img_avatar2.png" alt="Avatar">
           </div>
       
           <div class="container">
             <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <input name="uname" type="text" placeholder="Enter Username" required>
       
             <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <input name="psw" type="password" placeholder="Enter Password" required>
               
             <button type="submit">Login</button>
             <label>
-              <input type="checkbox" checked="checked" name="remember"> Remember me
+              <input name="remember" type="checkbox" checked="checked"> Remember me
             </label>
           </div>
       
           <div class="container" style="background-color:#f1f1f1">
-            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button class="cancelbtn" type="button" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
             <span class="psw">Forgot <a href="#">password?</a></span>
           </div>
         </form>

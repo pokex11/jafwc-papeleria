@@ -3,11 +3,11 @@
 
 <head>
     <title>Proyecto Papelería JAFWC</title>
-    <link href="css/estilos.css" rel="stylesheet">    
+    <link rel="stylesheet" href="css/estilos.css">    
 </head>
 
 <body>
-<head>
+<<<<<<< HEAD
     <div id="cabecera">
         <header id="main-header">
             <a id="logo-header" href="#">
@@ -44,43 +44,43 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="column" id="columna" style="margin-left: 16%;">
-                    <div><img id="logo" src="img/agendas.jpg"></div>              
+                <div id="columna" class="column" style="margin-left: 16%;">
+                    <div><img id="logo" src="img/agendas.jpg"></div>                    
                     <div>Agendas</div>                 
                 </div>
-                <div class="column" id="columna">
+                <div id="columna" class="column">
                     <div><img id="logo" src="img/blocks.jpg"></div>
                     <div>Blocks</div>
                 </div>
-                <div class="column" id="columna">
+                <div id="columna" class="column">
                     <div><img id="logo" src="img/boligrafo.png"></div>
                     <div>Boligrafos</div>
                 </div>
             </div>
             <div class="row">
-                <div class="column" id="column" style="margin-left: 16%;">
+                <div id="columna" class="column" style="margin-left: 16%;">
                     <div><img id="logo" src="img/cinta.jpg"></div>
                     <div>Cinta</div>
                 </div>                        
-                <div class="column" id="columna">
+                <div id="columna" class="column">
                     <div><img id="logo" src="img/cuadernos.png"></div>
                     <div>Cuadernos</div>
                 </div>
-                <div class="column" id="columna">
+                <div id="columna" class="column">
                     <div><img id="logo" src="img/lapices.jpg"></div>
                     <div>Lapices</div>
                 </div>
             </div>
             <div class="row">
-                <div class="column" id="columna" style="margin-left: 16%;">
+                <div id="columna" class="column" style="margin-left: 16%;">
                     <div><img id="logo" src="img/marcadores.jpg"></div>
                     <div>Marcadores</div>
                 </div>                       
-                <div class="column" id="columna">
+                <div id="columna" class="column">
                     <div><img id="logo" src="img/regla.jpg"></div>
                     <div>Reglas</div>
                 </div>
-                <div class="column" id="columna">
+                <div id="columna" class="column">
                     <div><img id="logo" src="img/temperas.png"></div>
                     <div>Temperas</div>                
                 </div>
@@ -88,29 +88,29 @@
         </div>
     </div>
 
-    <div class="modal" id="id01"> <!-- modal para el acceso-->
+    <div id="id01" class="modal"> <!-- modal para el acceso-->
   
         <form class="modal-content animate" action="/action_page.php" method="post">
           <div class="imgcontainer">
-            <span class="close" title="Close Modal" onclick="document.getElementById('id01').style.display='none'">&times;</span>
-            <img class="avatar" src="img/img_avatar2.png" alt="Avatar">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
           </div>
       
           <div class="container">
             <label for="uname"><b>Username</b></label>
-            <input name="uname" type="text" placeholder="Enter Username" required>
+            <input type="text" placeholder="Enter Username" name="uname" required>
       
             <label for="psw"><b>Password</b></label>
-            <input name="psw" type="password" placeholder="Enter Password" required>
+            <input type="password" placeholder="Enter Password" name="psw" required>
               
             <button type="submit">Login</button>
             <label>
-              <input name="remember" type="checkbox" checked="checked"> Remember me
+              <input type="checkbox" checked="checked" name="remember"> Remember me
             </label>
           </div>
       
           <div class="container" style="background-color:#f1f1f1">
-            <button class="cancelbtn" type="button" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
             <span class="psw">Forgot <a href="#">password?</a></span>
           </div>
         </form>
@@ -127,6 +127,6 @@
           }
       }
       </script>
-</head></body>
+</body>
 
 </html>
