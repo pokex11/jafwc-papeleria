@@ -8,13 +8,33 @@
 
 
 h1{
-    color:#fff !important;
+    color:#ec407a !important;
     background-color: transparent;
     font-size: 3em;
     text-align: center;
-    border: #fff 3px dashed;
     padding: 20px 16px;
     margin: 50px;
+}
+
+h3{color:#ec407a !important;
+  font-size: 3em;
+  text-align: center;
+  padding: 20px 16px;
+  margin: 50px;}
+
+
+H8{color:#8e24aa !important;
+  background-color: transparent;
+  font-size: 1.5em;
+  font-weight:900;
+  text-align: center;
+  }
+
+P{color:#181319 !important;
+  font-weight:900;
+  text-align: justify;
+  margin: 130px;
+  font-size: 1.5em;
 }
 
 #formulario{
@@ -85,7 +105,11 @@ h1{
 
 #main-menu a {
     color: white;
+    font-weight:900;
+    text-align: center;
+
 }
+
 
 #main-content header,
 #main-content .content {
@@ -100,13 +124,14 @@ h1{
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 #main-header {
-	background: rgb(85, 18, 192);
+	background: #42a5f5;
 	color: white;
 	height: 80px;
 }	
 
 #main-header a {
-    color: white;
+    color: rgb(227, 72, 72);
+    font-weight:900;
 }
 
 #main-content header,
@@ -115,8 +140,8 @@ h1{
 }
 
 #logo{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     align-items: center;
 }
 
@@ -133,8 +158,8 @@ h1{
     display: block;
     font-weight: 1000;
     font-size: 3.0em;
-    font-family: fantasy;
-    color: black;
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+    color: #aa00ff;
     text-align: center;
 }
 
@@ -142,8 +167,9 @@ h1{
     display: block;
     font-weight: 300;
     font-size: 0.8em;
+    font-weight:900;
     font-family: monospace;
-    color: #999;
+    color: rgb(29, 27, 27);
 }
 
 nav {
@@ -220,7 +246,13 @@ img.avatar {
 }
 
 .container {
-  padding: 16px;
+  padding: 12px;
+}
+.container2{
+  padding: 8px;
+  text-align: left;
+  position: static;
+
 }
 
 #filas{
@@ -322,7 +354,7 @@ span.psw {
 
     body {
       
-      background-image: url(https://cutt.ly/BBZgbV5);
+      background-image: url(https://st.depositphotos.com/2127441/4132/i/600/depositphotos_41329241-stock-photo-soft-rainbow-color-background-design.jpg);
       background-repeat: repeat;
      
     } 
