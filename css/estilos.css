@@ -34,6 +34,9 @@ P{color:#181319 !important;
   font-weight:900;
   text-align: justify;
   font-size: 1.5em;
+  line-height: 1.5;
+  font-family: monospace;
+  overflow: hidden;
 }
 
 #px{color:#181319 !important;
@@ -341,7 +344,7 @@ span.psw {
   .column {
     float: left;
     width: 25%;
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
     margin-block-start: 100px;
     height: 300px; /* Should be removed. Only for demonstration */
@@ -363,4 +366,5 @@ span.psw {
       background-image: url(https://cutt.ly/MB3lNiH);
       background-repeat: repeat;
      
-    } 
+    }
+    
