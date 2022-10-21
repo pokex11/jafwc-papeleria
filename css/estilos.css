@@ -130,7 +130,7 @@ P{color:#181319 !important;
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 #main-header {
-	background: #42a5f5;
+	background: #000;
 	color: white;
 	height: 80px;
 }	
@@ -166,7 +166,7 @@ P{color:#181319 !important;
     font-size: 3.0em;
     font-family: Vegur, 'PT Sans', Verdana, sans-serif;
     color: #aa00ff;
-    text-align: center;
+    text-align: center;    
 }
 
 #logo-header .site-desc {
@@ -360,7 +360,7 @@ span.psw {
 
     body {
       
-      background-image: url(https://st.depositphotos.com/2127441/4132/i/600/depositphotos_41329241-stock-photo-soft-rainbow-color-background-design.jpg);
+      background-image: url(https://cutt.ly/MB3lNiH);
       background-repeat: repeat;
      
     } 

@@ -3,9 +3,12 @@
 
 
 body{
+  position: relative;
+  float: center;
   height: 100%; 
   font-family: 'Noto Sans', sans-serif;
-  background-color: #ab4493; 
+  background-color: #5444ab;
+  background: url(https://cutt.ly/aBMm1Y7);
 }
 
 
@@ -63,7 +66,7 @@ button{
   margin-bottom: 20px; 
   margin-top: 10px;   
   text-transform: uppercase;
-  background-color: #ab4493; 
+  background-color: #0a84f7; 
   border-color: #ab4493; 
   border-style: solid; 
   border-radius: 10px;  
@@ -129,4 +132,3 @@ p{
   outline:0;
   border: 1px solid #97d848;
 }
-
